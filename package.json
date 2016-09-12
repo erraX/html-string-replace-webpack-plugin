@@ -1,0 +1,25 @@
+{
+  "name": "html-string-replace-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack html string replacement plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erraX/html-string-replace-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "string",
+    "replace"
+  ],
+  "author": "niminjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erraX/html-string-replace-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/erraX/html-string-replace-webpack-plugin#readme"
+}
