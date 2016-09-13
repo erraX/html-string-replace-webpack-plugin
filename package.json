@@ -1,6 +1,6 @@
 {
   "name": "html-string-replace-webpack-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "webpack html string replacement plugin",
   "main": "index.js",
   "scripts": {
