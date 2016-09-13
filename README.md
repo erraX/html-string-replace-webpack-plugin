@@ -47,7 +47,7 @@ Allowed values are as follows:
 
 - `enable`: `true | false`  whether enable this plugin or not.
 - `patterns`: add some patterns and how to replace the string.
-- `patterns.replacement` standard [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) replace function or string
+- `patterns[parrern].replacement` standard [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) replace function or string
 
 example:
 ```javascript
