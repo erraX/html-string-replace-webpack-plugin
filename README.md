@@ -11,7 +11,7 @@ This is especially useful for adding some cdn prefix.
 $ npm install html-string-replace-webpack-plugin --save-dev
 ```
 
-#### Basic Usage
+# Basic Usage
 
 Add plugin to webpack config `plugins`. And pass options.
 
@@ -40,13 +40,14 @@ var webpackConfig = {
 };
 ```
 
-#### Configuration
+# Configuration
 
 You can pass a hash of configuration options to HtmlStringReplace.   
 Allowed values are as follows:
 
 - `enable`: `true | false`  whether enable this plugin or not.
 - `patterns`: add some patterns and how to replace the string.
+- `patterns.replacement` standard [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) replace function or string
 
 example:
 ```javascript
@@ -58,7 +59,7 @@ new HtmlStringReplace({
             // <link href="build.css">  =>
             // <link href="//cdn.baidu.com/static/build.css"> 
             match: /href=\"([^\"]*)\"/g,
-            replace: function (match, $1) {
+            replacement: function (match, $1) {
                 return 'href="' + CDN_PREFIX + $1 + '"';
             }
         },
@@ -67,7 +68,7 @@ new HtmlStringReplace({
             // <script src="build.js">  =>
             // <script src="//cdn.baidu.com/static/build.js"> 
             match: /src=\"([^\"]*)\"/g,
-            replace: 'href="' + CDN_PREFIX + '$1"'
+            replacement: 'href="' + CDN_PREFIX + '$1"'
     ]
 })
 ```
