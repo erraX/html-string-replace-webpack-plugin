@@ -1,6 +1,7 @@
 # HTML STRING REPLACE WEBPACK PLUGIN
 
 [![npm version](https://badge.fury.io/js/html-string-replace-webpack-plugin.svg)](https://badge.fury.io/js/html-string-replace-webpack-plugin)
+[![npm](https://img.shields.io/npm/dm/html-string-replace-webpack-plugin.svg)](https://www.npmjs.com/package/html-string-replace-webpack-plugin)
 [![Build Status](https://travis-ci.org/erraX/html-string-replace-webpack-plugin.svg?branch=master)](https://travis-ci.org/erraX/html-string-replace-webpack-plugin)
 [![dependencies](https://david-dm.org/erraX/html-string-replace-webpack-plugin.svg)](https://travis-ci.org/erraX/html-string-replace-webpack-plugin)
 [![Inline docs](http://inch-ci.org/github/erraX/html-string-replace-webpack-plugin.svg?branch=master)](http://inch-ci.org/github/erraX/html-string-replace-webpack-plugin)
