@@ -1,5 +1,7 @@
 # HTML STRING REPLACE WEBPACK PLUGIN
 
+[![npm version](https://badge.fury.io/js/html-string-replace-webpack-plugin.svg)](https://badge.fury.io/js/html-string-replace-webpack-plugin)
+
 This is a webpack plugin that replace string in html files that created by `html-webpack-plugin`.   
 This is especially useful for adding some cdn prefix.
 
@@ -69,6 +71,7 @@ new HtmlStringReplace({
             // <script src="//cdn.baidu.com/static/build.js"> 
             match: /src=\"([^\"]*)\"/g,
             replacement: 'href="' + CDN_PREFIX + '$1"'
+       }
     ]
 })
 ```
